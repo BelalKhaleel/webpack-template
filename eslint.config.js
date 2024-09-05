@@ -4,7 +4,7 @@ export default [
   js.configs.recommended,
 
   {
-    ignores: ["build", "coverage", "node_modules", "dist", "public"],
+    ignores: ["build", "coverage", "node_modules", "dist", "public", ".git/"],
     rules: {
       "no-unused-vars": "warn",
       "no-undef": "warn",
