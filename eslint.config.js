@@ -14,10 +14,19 @@ export default [
         myCustomGlobal: "readonly",
       },
     },
-    ignores: ["build", "coverage", "node_modules", "dist", "public", ".git/"],
     rules: {
       "no-unused-vars": "warn",
       "no-undef": "warn",
     },
+  },
+  {
+    ignores: [
+      "**/build",
+      "**/coverage",
+      "**/node_modules",
+      "**/dist",
+      "**/public",
+      "**/.git",
+    ],
   },
 ];
